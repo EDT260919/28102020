@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="685c8b05-0ad0-4997-b5ad-147bc520200e">
+  <producedTypes>
+    <objectType typeId="dc762201-44f3-4012-977b-1ba3ac363c7b" valueTypeId="48001961-aca0-4b28-9748-626b9310768f"/>
+    <refType typeId="263c971a-5a4e-4b3e-b9bc-32d6a71a6606" valueTypeId="651d1baa-dcf1-40c7-af9c-f46244b5e3f6"/>
+    <selectionType typeId="82c9936c-d37f-45ee-a175-bb0229a2eebb" valueTypeId="f7629cc3-56f0-4ce8-bc44-67822fb4fdce"/>
+    <listType typeId="bae7a884-e760-4b23-bb34-502d4f2d1f24" valueTypeId="5ffd2923-f55e-4a17-a61f-c3318ccb071f"/>
+    <managerType typeId="e9284e04-1e25-4147-a2dd-bcbe5376f98a" valueTypeId="dead30b0-bb63-458d-ad51-7d6ed063c882"/>
+  </producedTypes>
+  <name>Пользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Пользователи.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Пользователи.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Краткое имя</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Пользователь</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="801e4b97-cda4-4eab-bdc8-29efbcafde50">
+    <name>ПолноеИмя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="30fc526c-fae1-43f9-b823-8df3374008ea">
+    <producedTypes>
+      <objectType typeId="ef2fc491-2d61-42ba-b1a7-0ac653f7e88a" valueTypeId="2f663d10-4786-42f6-a025-94f4dde0a255"/>
+      <rowType typeId="8ee68b5c-5124-4ec0-9289-8ca1aecdc3f1" valueTypeId="67b18296-920a-4794-9bdf-9fc311870f03"/>
+    </producedTypes>
+    <name>НаборПрав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор прав</value>
+    </synonym>
+    <attributes uuid="edc731bf-e500-4944-a0fc-a27ff343159c">
+      <name>ИмяРоли</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя роли</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="50b839a1-3d86-4e3b-af1f-ec79653472ac">
+      <name>ПредставлениеРоли</name>
+      <synonym>
+        <key>ru</key>
+        <value>Название</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4a701642-a82c-44e8-9d42-b60506f65ab1">
+      <name>Активна</name>
+      <synonym>
+        <key>ru</key>
+        <value>Активна</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>
